@@ -1,0 +1,32 @@
+{
+    "name": "whatsapp_web",
+    "version": "1.0.0",
+    "productName": "WhatsAppWeb",
+    "description": "WhatsApp Web",
+    "main": "index.js",
+    "author": {
+        "name": "delusion",
+        "email": "monimoy@ialoy.com",
+        "url": "https://delusion-ms.github.io"
+    },
+    "build": {
+        "appId": "com.delusion.whatsapp",
+        "linux": [
+            "AppImage"
+        ],
+        "maintainer": "delusion",
+        "category": "Utility",
+        "icon": "icon.png"
+    },
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder"
+    },
+    "devDependencies": {
+        "electron": "^10.1.2",
+        "electron-builder": "^22.8.1"
+    },
+    "dependencies": {
+        "ffi-napi": "^3.0.1"
+    }
+}

@@ -23,10 +23,11 @@
         "dist": "electron-builder"
     },
     "devDependencies": {
-        "electron": "^10.1.2",
+        "electron": "^10.3.0",
         "electron-builder": "^22.8.1"
     },
     "dependencies": {
-        "ffi-napi": "^3.0.1"
+        "ffi": "^2.3.0",
+        "ffi-napi": "^2.5.0"
     }
 }

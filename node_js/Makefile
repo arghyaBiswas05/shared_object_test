@@ -5,8 +5,9 @@ all:
 	@echo "make clean: To clean the entire workspace"
 
 configure:
-	@npm install
-	@npm install ffi-napi
+	@npm i ffi
+	@npm i ffi-napi
+	@npm i electron
 
 cpp-build:
 	@cd ../share_object/ && make
